@@ -3,8 +3,8 @@ package com.BXuan.yygh.hosp.controller;
 import com.BXuan.yygh.common.result.Result;
 import com.BXuan.yygh.common.utils.MD5;
 import com.BXuan.yygh.hosp.service.HospitalSetService;
-import com.atguigu.yygh.model.hosp.HospitalSet;
-import com.atguigu.yygh.vo.hosp.HospitalSetQueryVo;
+import com.BXuan.yygh.model.hosp.HospitalSet;
+import com.BXuan.yygh.vo.hosp.HospitalSetQueryVo;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
@@ -21,7 +21,7 @@ import java.util.Random;
 @RestController
 //RequestMapping表示请求的主路径
 @RequestMapping("/admin/hosp/hospitalSet")
-@CrossOrigin
+//@CrossOrigin
 public class HospitalSetController {
 
     @Autowired

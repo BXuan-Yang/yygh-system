@@ -12,6 +12,8 @@
         <module>service/service_user</module>
         <module>service-gateway</module>
         <module>common/service_util</module>
+        <module>service-gateway</module>
+        <module>service-gateway</module>
     </modules>
 
     <parent>

@@ -17,10 +17,36 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.atguigu.yygh</groupId>
+            <artifactId>service-cmn-client</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.atguigu.yygh</groupId>
+            <artifactId>service-cmn-client</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
             <groupId>io.swagger</groupId>
             <artifactId>swagger-annotations</artifactId>
             <version>1.5.13</version>
             <scope>compile</scope>
+        </dependency>
+        <!-- 引入MongoDB依赖 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-mongodb</artifactId>
+        </dependency>
+        <!-- 引入alibaba fastjson依赖 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
         </dependency>
     </dependencies>
 
